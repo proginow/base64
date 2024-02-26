@@ -1,0 +1,37 @@
+{
+	"name": "proginow/base64",
+	"description": "Proginow Framework Base64 Library,Simple and convenient Base64 encoding and decoding.",
+	"type": "library",
+	"license": "MIT",
+	"keywords": [ "base64", "base-64", "encode", "decode", "encoding", "decoding", "url-safe", "url" ],
+	"require": {
+	  "php": ">=8.1.0"
+	},
+	"authors": [
+	  {
+		"name": "Proginow",
+		"email": "info@proginow.com",
+		"homepage": "https://proginow.com",
+		"role": "Developer"
+	  }
+	],
+	"repositories": [
+	  {
+		  "type": "vcs",
+		  "url": "https://github.com/proginow/base64"
+	  }
+	],
+	"support": {
+		  "email": "info@proginow.com"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+	  "psr-4": {
+		"Proginow\\Base64\\": "/"
+	  },
+	  "files": [
+		"loader.php"
+	  ]
+	}
+}
