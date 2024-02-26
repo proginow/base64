@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"keywords": [ "base64", "base-64", "encode", "decode", "encoding", "decoding", "url-safe", "url" ],
 	"require": {
-	  "php": ">=8.1.0"
+	  "php": ">=8.2.0"
 	},
 	"authors": [
 	  {
